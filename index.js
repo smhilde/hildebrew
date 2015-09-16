@@ -1,10 +1,15 @@
 'use strict';
 
 var express = require('express');
+var fs = require('fs');
 var app = express();
 
+app.use(express.static(__dirname + '/public'));
+
 app.get('/', function (req, res) {
-  res.send('Hello Anna and Dave\nand Teri and Chris\nand Ceu and Fede!');
+  var readFile = __dirname + '/public/templates/index.html';
+  var fileContents = fs.readFileSync(readFile);
+  res.send(fileContents.toString());
 });
 
-var server = app.listen(8000);
+var server = app.listen(8080);

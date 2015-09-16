@@ -1,0 +1,156 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #E3513E;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+/* header */
+.name {
+  margin: 2rem 2rem 0 2rem;
+  font-size: 5rem;
+  font-family: 'Bubblegum Sans', sans-serif;
+}
+
+/* intro */
+.intro {
+  padding: 1rem 2rem 2rem 2rem;
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: #EFCD70;
+}
+
+.intro-social {
+  margin: 1.5rem 0 0 1rem;
+  width: 700px;
+}
+
+.social-link {
+  margin: 1rem;
+  color: white;
+  font-size: 5rem;
+}
+
+.social-link:hover {
+  color: #EFCD70;
+}
+
+/* main */
+.main {
+  margin-bottom: 3rem;
+}
+
+.bar {
+  display: inline-block;
+  width: 20px;
+  height: 75px;
+  background-color: lightseagreen;
+  margin-right: 2px;
+}
+
+.work-list {
+  margin: 0;
+  padding: 0 2rem;
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+.work-list li {
+  padding: 2rem 0;
+  border-top: 2px solid white;
+}
+
+.work-list li:last-of-type {
+  border-bottom: 2px solid white;
+}
+
+.work-link {
+  color: white;
+}
+
+.work-link:hover,
+.project-link:hover {
+  color: #EFCD70;
+}
+
+/* sub pages */
+.header-2 {
+  margin-bottom: 2rem;
+}
+.page-title {
+  margin: 2rem;
+  padding: 2rem 0;
+  border-bottom: 2px solid #E3513E;
+  border-top: 2px solid #E3513E;
+  font-size: 2rem;
+}
+.name2 {
+  color: #E3513E;
+}
+.sub-page {
+  background: white;
+  color: #E3513E;
+}
+.social-link-2 {
+  color: #E3513E;
+}
+.sub-main-project {
+  margin: 0;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+}
+.project-title {
+  font-size: 1.2rem;
+}
+.project-link {
+  color: #E3513E;
+  font-size: 2rem;
+}
+.project-description {
+  font-size: 1rem;
+}
+.footer-2 {
+  margin-top: 3rem;
+  color: #E3513E;
+}
+.back-button {
+  margin-left: 2rem;
+  color: #E3513E;
+  font-size: .9rem;
+  width: 100px;
+}
+.back-button:hover {
+  color: #EFCD70;
+}
+
+/* footer */
+.footer {
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-created {
+  font-size: .8rem;
+}
+
+@media (min-width: 600px) {
+  html {
+  font-size: 21px;
+  }
+  .name {
+  font-size: 5rem;
+  }
+  .social-link {
+  font-size: 4rem;
+  }
+  .intro-social {
+  width: 550px;
+  }
+}
+
