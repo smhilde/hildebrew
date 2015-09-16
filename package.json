@@ -1,0 +1,27 @@
+{
+  "name": "hildebrew",
+  "version": "0.1.0",
+  "description": "A web app for the hildebrew system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smhilde/hildebrew.git"
+  },
+  "keywords": [
+    "homebrew",
+    "node",
+    "express",
+    "socket.io",
+    "hildebrew",
+    "beaglebone",
+    "black"
+  ],
+  "author": "Seth Hildebrand",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
